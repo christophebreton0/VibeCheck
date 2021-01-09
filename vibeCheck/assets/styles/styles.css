@@ -1,0 +1,21 @@
+body {
+    background-image: url("../imgs/wide_outrun.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+h1 {
+    text-align: center;
+    text-decoration-style: wavy;
+    letter-spacing: 7px;
+    font-family: Source, serif;
+    color: #c145ff;
+}
+h2 {
+    text-align: center;
+    color: rgb(255, 29, 0);
+}
+div {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+        <meta charset="UTF-8">
+        <title>VibeCheck</title>
+    </head>
+    <style>
+
+    </style>
+    <body>
+        {% block content %}
+
+        {% endblock %}
+        <h1>VIBECHECK</h1>
+        <canvas id="main_vibe" height="600" width="1200" style="background-color:transparent">
+        </canvas>
+    </body>
+</html>
